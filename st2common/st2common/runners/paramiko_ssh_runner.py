@@ -16,6 +16,7 @@
 from __future__ import absolute_import
 from oslo_config import cfg
 import six
+import functools
 
 from st2common.runners.base import ShellRunnerMixin
 from st2common.runners.base import ActionRunner
